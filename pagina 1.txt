@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionando colores</title>
+</head>
+
+<body>
+
+<script>
+
+    var color;
+
+    color = prompt('Escoge un color: 1, 2, 3, 4, 5 o 6');
+
+    if (color == "1")
+    {
+        document.bgColor = '#000022';
+        document.write('<div style="text-align:center; margin-top:250px; font-size:60px; color:white; font-family:Arial; font-weight:bold;">Azul oscuro</div>');
+        document.write('<div style="position:fixed; bottom:20px; width:100%; text-align:center; font-size:15px; color:white; font-family:Arial;">Para continuar con los 6 colores debes refrescar la página</div>');
+    }
+    else if (color == "2")
+    {
+        document.bgColor = '#0055ff';
+        document.write('<div style="text-align:center; margin-top:250px; font-size:60px; color:white; font-family:Arial; font-weight:bold;">Azul</div>');
+        document.write('<div style="position:fixed; bottom:20px; width:100%; text-align:center; font-size:15px; color:white; font-family:Arial;">Para continuar con los 6 colores debes refrescar la página</div>');
+    }
+    else if (color == "3")
+    {
+        document.bgColor = '#00a000';
+        document.write('<div style="text-align:center; margin-top:250px; font-size:60px; color:white; font-family:Arial; font-weight:bold;">Verde</div>');
+        document.write('<div style="position:fixed; bottom:20px; width:100%; text-align:center; font-size:15px; color:white; font-family:Arial;">Para continuar con los 6 colores debes refrescar la página</div>');
+    }
+    else if (color == "4")
+    {
+        document.bgColor = '#ffff00';
+        document.write('<div style="text-align:center; margin-top:250px; font-size:60px; color:black; font-family:Arial; font-weight:bold;">Amarillo</div>');
+        document.write('<div style="position:fixed; bottom:20px; width:100%; text-align:center; font-size:15px; color:black; font-family:Arial;">Para continuar con los 6 colores debes refrescar la página</div>');
+    }
+    else if (color == "5")
+    {
+        document.bgColor = '#800080';
+        document.write('<div style="text-align:center; margin-top:250px; font-size:60px; color:white; font-family:Arial; font-weight:bold;">Morado</div>');
+        document.write('<div style="position:fixed; bottom:20px; width:100%; text-align:center; font-size:15px; color:white; font-family:Arial;">Para continuar con los 6 colores debes refrescar la página</div>');
+    }
+    else if (color == "6")
+    {
+        document.bgColor = '#ff8000';
+        document.write('<div style="text-align:center; margin-top:250px; font-size:60px; color:white; font-family:Arial; font-weight:bold;">Naranja</div>');
+        document.write('<div style="position:fixed; bottom:20px; width:100%; text-align:center; font-size:15px; color:white; font-family:Arial;">Para continuar con los 6 colores debes refrescar la página</div>');
+    }
+    else
+    {
+        document.write('<div style="text-align:center; margin-top:250px; font-size:60px; color:white; font-family:Arial; font-weight:bold;">Opción no válida</div>');
+        document.write('<div style="position:fixed; bottom:20px; width:100%; text-align:center; font-size:15px; color:white; font-family:Arial;">Para continuar con los 6 colores debes refrescar la página</div>');
+    }
+
+</script>
+
+</body>
+</html>
